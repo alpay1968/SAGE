@@ -19,8 +19,8 @@ void setup() {
   }
   
   dogModel = loadShape("Dog.obj");  // Replace "d
-  dogX = 0;
-  dogZ = 0;
+  dogX = 10;
+  dogZ = 10;
 
   catModel = loadShape("Cat.obj");  
   for (int i = 0; i < 3; i++) {
